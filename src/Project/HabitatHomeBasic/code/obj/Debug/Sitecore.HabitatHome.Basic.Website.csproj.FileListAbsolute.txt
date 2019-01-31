@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\bin\Sitecore.HabitatHome.Basic.Website.dll.config
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\bin\Sitecore.HabitatHome.Basic.Website.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\bin\Sitecore.HabitatHome.Basic.Website.pdb
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\obj\Debug\Sitecore.HabitatHome.Basic.Website.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\obj\Debug\Sitecore.HabitatHome.Basic.Website.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\HabitatHomeBasic\code\obj\Debug\Sitecore.HabitatHome.Basic.Website.pdb

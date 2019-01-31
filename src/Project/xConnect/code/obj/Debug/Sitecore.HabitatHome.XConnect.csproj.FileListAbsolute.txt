@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\bin\Sitecore.HabitatHome.XConnect.dll.config
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\bin\Sitecore.HabitatHome.XConnect.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\bin\Sitecore.HabitatHome.XConnect.pdb
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\obj\Debug\Sitecore.HabitatHome.XConnect.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\obj\Debug\Sitecore.HabitatHome.XConnect.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Project\xConnect\code\obj\Debug\Sitecore.HabitatHome.XConnect.pdb

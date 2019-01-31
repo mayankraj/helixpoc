@@ -1,0 +1,825 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "Configy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Configy.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Configy.dll": {}
+        }
+      },
+      "Kamsar.WebConsole/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        }
+      },
+      "MicroCHAP/1.2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MicroCHAP.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MicroCHAP.dll": {}
+        }
+      },
+      "Rainbow/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        }
+      },
+      "Rainbow.Core/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Rainbow.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.dll": {}
+        }
+      },
+      "Rainbow.Storage.Sc/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        }
+      },
+      "Rainbow.Storage.Yaml/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        }
+      },
+      "Unicorn/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Kamsar.WebConsole": "2.0.0",
+          "MicroCHAP": "1.2.2.2",
+          "Rainbow.Core": "2.0.1",
+          "Rainbow.Storage.Sc": "2.0.1",
+          "Rainbow.Storage.Yaml": "2.0.1"
+        },
+        "compile": {
+          "lib/net452/Unicorn.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.dll": {}
+        }
+      },
+      "Unicorn.Roles/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn": "4.0.4",
+          "Unicorn.Roles.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Roles.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Core": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        }
+      },
+      "Unicorn.Users/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn.Users.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Users.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Storage.Yaml": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Users.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Users.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "Configy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Configy.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Configy.dll": {}
+        }
+      },
+      "Kamsar.WebConsole/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        }
+      },
+      "MicroCHAP/1.2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MicroCHAP.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MicroCHAP.dll": {}
+        }
+      },
+      "Rainbow/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        }
+      },
+      "Rainbow.Core/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Rainbow.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.dll": {}
+        }
+      },
+      "Rainbow.Storage.Sc/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        }
+      },
+      "Rainbow.Storage.Yaml/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        }
+      },
+      "Unicorn/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Kamsar.WebConsole": "2.0.0",
+          "MicroCHAP": "1.2.2.2",
+          "Rainbow.Core": "2.0.1",
+          "Rainbow.Storage.Sc": "2.0.1",
+          "Rainbow.Storage.Yaml": "2.0.1"
+        },
+        "compile": {
+          "lib/net452/Unicorn.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.dll": {}
+        }
+      },
+      "Unicorn.Roles/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn": "4.0.4",
+          "Unicorn.Roles.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Roles.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Core": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        }
+      },
+      "Unicorn.Users/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn.Users.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Users.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Storage.Yaml": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Users.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Users.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "Configy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Configy.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Configy.dll": {}
+        }
+      },
+      "Kamsar.WebConsole/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        }
+      },
+      "MicroCHAP/1.2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MicroCHAP.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MicroCHAP.dll": {}
+        }
+      },
+      "Rainbow/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        }
+      },
+      "Rainbow.Core/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Rainbow.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.dll": {}
+        }
+      },
+      "Rainbow.Storage.Sc/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        }
+      },
+      "Rainbow.Storage.Yaml/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        }
+      },
+      "Unicorn/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Kamsar.WebConsole": "2.0.0",
+          "MicroCHAP": "1.2.2.2",
+          "Rainbow.Core": "2.0.1",
+          "Rainbow.Storage.Sc": "2.0.1",
+          "Rainbow.Storage.Yaml": "2.0.1"
+        },
+        "compile": {
+          "lib/net452/Unicorn.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.dll": {}
+        }
+      },
+      "Unicorn.Roles/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn": "4.0.4",
+          "Unicorn.Roles.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Roles.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Core": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        }
+      },
+      "Unicorn.Users/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn.Users.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Users.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Storage.Yaml": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Users.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Users.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "Configy/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Configy.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Configy.dll": {}
+        }
+      },
+      "Kamsar.WebConsole/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Kamsar.WebConsole.dll": {}
+        }
+      },
+      "MicroCHAP/1.2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MicroCHAP.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MicroCHAP.dll": {}
+        }
+      },
+      "Rainbow/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        }
+      },
+      "Rainbow.Core/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Rainbow.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.dll": {}
+        }
+      },
+      "Rainbow.Storage.Sc/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Sc.dll": {}
+        }
+      },
+      "Rainbow.Storage.Yaml/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow.Core": "2.0.2"
+        },
+        "compile": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Rainbow.Storage.Yaml.dll": {}
+        }
+      },
+      "Unicorn/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Rainbow": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Kamsar.WebConsole": "2.0.0",
+          "MicroCHAP": "1.2.2.2",
+          "Rainbow.Core": "2.0.1",
+          "Rainbow.Storage.Sc": "2.0.1",
+          "Rainbow.Storage.Yaml": "2.0.1"
+        },
+        "compile": {
+          "lib/net452/Unicorn.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.dll": {}
+        }
+      },
+      "Unicorn.Roles/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn": "4.0.4",
+          "Unicorn.Roles.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Roles.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Core": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Roles.dll": {}
+        }
+      },
+      "Unicorn.Users/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Unicorn.Users.Core": "4.0.4"
+        }
+      },
+      "Unicorn.Users.Core/4.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Configy": "1.0.0",
+          "Rainbow.Storage.Yaml": "2.0.1",
+          "Unicorn.Core": "4.0.4"
+        },
+        "compile": {
+          "lib/net452/Unicorn.Users.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Unicorn.Users.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Configy/1.0.0": {
+      "sha512": "YewDtWNPe/pLo2Y/MbxJoop1yfZDOUlICCoPv/ANi3dphLgXihBV0E39fZLYvEm8PlvSOpkWWl75IAW+xFE1hQ==",
+      "type": "package",
+      "path": "configy/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "configy.1.0.0.nupkg.sha512",
+        "configy.nuspec",
+        "lib/net45/Configy.dll"
+      ]
+    },
+    "Kamsar.WebConsole/2.0.1": {
+      "sha512": "nih/ggutKiGiews1UMfE7ENZrNvS7rF1/+dFbiEWV4c+NsJH8RHybdsj4w2WvujK+LmGAZMwtFNVOUP7VqOUUw==",
+      "type": "package",
+      "path": "kamsar.webconsole/2.0.1",
+      "files": [
+        ".signature.p7s",
+        "kamsar.webconsole.2.0.1.nupkg.sha512",
+        "kamsar.webconsole.nuspec",
+        "lib/net40/Kamsar.WebConsole.dll"
+      ]
+    },
+    "MicroCHAP/1.2.2.2": {
+      "sha512": "P5PHWA/i9wdQGwdu8glm/j4zZ3z76XyuxlEM7u4HUtmQo5Rk2bdldtChX12VUWhOitM3miks6mro2pDl7GEAvQ==",
+      "type": "package",
+      "path": "microchap/1.2.2.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/MicroCHAP.dll",
+        "microchap.1.2.2.2.nupkg.sha512",
+        "microchap.nuspec"
+      ]
+    },
+    "Rainbow/2.0.2": {
+      "sha512": "ABXp0AG99hpYZThdLBub2nprFe8n9RyzD5xfd3gJhNCgOpMhuAX8AbsPln71WpQJaEYCuF4pPXcXvsBaqp3EAA==",
+      "type": "package",
+      "path": "rainbow/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "content/App_Config/Include/Rainbow.config",
+        "rainbow.2.0.2.nupkg.sha512",
+        "rainbow.nuspec"
+      ]
+    },
+    "Rainbow.Core/2.0.2": {
+      "sha512": "hNvg0ggD6et+AV4KO+PkIU6yZe8xIRhrB6ghJv32bjeyxepBFLr32zJ5GAXWfZdMfEzoLTr8zXpIPv60XGn/3Q==",
+      "type": "package",
+      "path": "rainbow.core/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Rainbow.dll",
+        "rainbow.core.2.0.2.nupkg.sha512",
+        "rainbow.core.nuspec"
+      ]
+    },
+    "Rainbow.Storage.Sc/2.0.2": {
+      "sha512": "RFSAAoTEiasrLs7lXs/J68tvpC1QppzG+8Hlp3fUz6h5t5UjL8Rp1q21w4DU6Q16+usqUtOuC+J6xSGqwRbCnQ==",
+      "type": "package",
+      "path": "rainbow.storage.sc/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Rainbow.Storage.Sc.dll",
+        "rainbow.storage.sc.2.0.2.nupkg.sha512",
+        "rainbow.storage.sc.nuspec"
+      ]
+    },
+    "Rainbow.Storage.Yaml/2.0.2": {
+      "sha512": "16W8JpoYNhuz9FIAg1VXNq6geKelSxAAuZDOvV7iG5WsrfxLO//0VTAvsTD6DT2lSKvYi9g5kQrHGApHCpGWxA==",
+      "type": "package",
+      "path": "rainbow.storage.yaml/2.0.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Rainbow.Storage.Yaml.dll",
+        "rainbow.storage.yaml.2.0.2.nupkg.sha512",
+        "rainbow.storage.yaml.nuspec"
+      ]
+    },
+    "Unicorn/4.0.4": {
+      "sha512": "1tKTM/SiY4mXhea6HUUJViPqlctXmSb1Qx1VtDLe4H/vhFq+m/qQnwMmVtVz7NE6vsYqr46kr4OpBaAmXgwZbg==",
+      "type": "package",
+      "path": "unicorn/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "content/App_Config/Include/Unicorn/Unicorn.AutoPublish.config",
+        "content/App_Config/Include/Unicorn/Unicorn.Configs.Default.example",
+        "content/App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example",
+        "content/App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example",
+        "content/App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config.example",
+        "content/App_Config/Include/Unicorn/Unicorn.DataProvider.config",
+        "content/App_Config/Include/Unicorn/Unicorn.Dilithium.config.example",
+        "content/App_Config/Include/Unicorn/Unicorn.PowerShell.config",
+        "content/App_Config/Include/Unicorn/Unicorn.Remote.config.disabled",
+        "content/App_Config/Include/Unicorn/Unicorn.UI.DeployedContentEditorWarnings.config.disabled",
+        "content/App_Config/Include/Unicorn/Unicorn.UI.config",
+        "content/App_Config/Include/Unicorn/Unicorn.config",
+        "content/App_Config/Include/Unicorn/Unicorn.zSharedSecret.config.example",
+        "readme.txt",
+        "tools/PSAPI/MicroCHAP.dll",
+        "tools/PSAPI/Unicorn.psm1",
+        "tools/PSAPI/sample.ps1",
+        "unicorn.4.0.4.nupkg.sha512",
+        "unicorn.nuspec"
+      ]
+    },
+    "Unicorn.Core/4.0.4": {
+      "sha512": "6uf3PzPuQJcqchh0F5ead0kml5eiwdXsN9Iv6fUtz2jUuCGJB/6ofvHoauhMXw+frLpbm0b0/VV3hTPSx+edPg==",
+      "type": "package",
+      "path": "unicorn.core/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Unicorn.dll",
+        "unicorn.core.4.0.4.nupkg.sha512",
+        "unicorn.core.nuspec"
+      ]
+    },
+    "Unicorn.Roles/4.0.4": {
+      "sha512": "JzNP2p67znlRwNpCmjc5fHQJCNgD1Jn+ivk3OEhjOgehx3EigTp9St2BOLLn3lmVyX6/8bD+1x0PM06y3RFddQ==",
+      "type": "package",
+      "path": "unicorn.roles/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "content/App_Config/Include/Unicorn/Unicorn.Configs.Default.Roles.config.example",
+        "content/App_Config/Include/Unicorn/Unicorn.Roles.DataProvider.config",
+        "content/App_Config/Include/Unicorn/Unicorn.Roles.config",
+        "readme.txt",
+        "unicorn.roles.4.0.4.nupkg.sha512",
+        "unicorn.roles.nuspec"
+      ]
+    },
+    "Unicorn.Roles.Core/4.0.4": {
+      "sha512": "dXwmbpfLEQNQFAsrkZUFIFJBPEyQUjCG0riWZ7hYDmhfnRmmEMW04xdG5VhbJClWuzj1mMTajIsBtMjO3OzcIg==",
+      "type": "package",
+      "path": "unicorn.roles.core/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Unicorn.Roles.dll",
+        "unicorn.roles.core.4.0.4.nupkg.sha512",
+        "unicorn.roles.core.nuspec"
+      ]
+    },
+    "Unicorn.Users/4.0.4": {
+      "sha512": "n28/vJQwwkUR+CFrXQAdkdMHUbpqZOpyJfL6aXLCHKzJ7mwQevTUv2MGPSdW7+p/rHoVyemxMEtV7AvUguADag==",
+      "type": "package",
+      "path": "unicorn.users/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "content/App_Config/Include/Unicorn/Unicorn.Configs.Default.Users.config.example",
+        "content/App_Config/Include/Unicorn/Unicorn.Users.DataProvider.config",
+        "content/App_Config/Include/Unicorn/Unicorn.Users.config",
+        "readme.txt",
+        "unicorn.users.4.0.4.nupkg.sha512",
+        "unicorn.users.nuspec"
+      ]
+    },
+    "Unicorn.Users.Core/4.0.4": {
+      "sha512": "o2ROr9QXmG8hTb0fYC9wXINlv8F5sNdA3XRwVHpwCU5oF1nuiByEYG2hX812PIgGGKzkHB2NxnwvqgmYDJBw2g==",
+      "type": "package",
+      "path": "unicorn.users.core/4.0.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Unicorn.Users.dll",
+        "unicorn.users.core.4.0.4.nupkg.sha512",
+        "unicorn.users.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "Configy >= 1.0.0",
+      "Kamsar.WebConsole >= 2.0.1",
+      "MicroCHAP >= 1.2.2.2",
+      "Rainbow >= 2.0.2",
+      "Rainbow.Core >= 2.0.2",
+      "Rainbow.Storage.Sc >= 2.0.2",
+      "Rainbow.Storage.Yaml >= 2.0.2",
+      "Unicorn >= 4.0.4",
+      "Unicorn.Core >= 4.0.4",
+      "Unicorn.Roles >= 4.0.4",
+      "Unicorn.Roles.Core >= 4.0.4",
+      "Unicorn.Users >= 4.0.4",
+      "Unicorn.Users.Core >= 4.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mayank Raj\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "\\\\vmware-host\\Shared Folders\\Documents\\Repo\\HelixPOC\\src\\Foundation\\Serialization\\code\\Sitecore.HabitatHome.Foundation.Serialization.csproj",
+      "projectName": "Sitecore.HabitatHome.Foundation.Serialization",
+      "projectPath": "\\\\vmware-host\\Shared Folders\\Documents\\Repo\\HelixPOC\\src\\Foundation\\Serialization\\code\\Sitecore.HabitatHome.Foundation.Serialization.csproj",
+      "packagesPath": "C:\\Users\\Mayank Raj\\.nuget\\packages\\",
+      "outputPath": "\\\\vmware-host\\Shared Folders\\Documents\\Repo\\HelixPOC\\src\\Foundation\\Serialization\\code\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "\\\\vmware-host\\Shared Folders\\Documents\\Repo\\HelixPOC\\NuGet.Config",
+        "C:\\Users\\Mayank Raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {},
+        "https://sitecore.myget.org/F/sc-platform-9-1/api/v3/index.json": {},
+        "https://www.nuget.org/api/v2": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "Configy": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Kamsar.WebConsole": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          },
+          "MicroCHAP": {
+            "target": "Package",
+            "version": "[1.2.2.2, )"
+          },
+          "Rainbow": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Rainbow.Core": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Rainbow.Storage.Sc": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Rainbow.Storage.Yaml": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Unicorn": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "Unicorn.Core": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "Unicorn.Roles": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "Unicorn.Roles.Core": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "Unicorn.Users": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "Unicorn.Users.Core": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

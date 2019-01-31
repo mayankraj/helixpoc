@@ -1,0 +1,17 @@
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Sitecore.HabitatHome.Foundation.Serialization.dll.config
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Sitecore.HabitatHome.Foundation.Serialization.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Sitecore.HabitatHome.Foundation.Serialization.pdb
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Configy.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Kamsar.WebConsole.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\MicroCHAP.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Rainbow.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Rainbow.Storage.Sc.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Rainbow.Storage.Yaml.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Unicorn.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Unicorn.Roles.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\bin\Unicorn.Users.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\obj\Debug\Sitecore.HabitatHome.Foundation.Serialization.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\obj\Debug\Sitecore.HabitatHome.Foundation.Serialization.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\obj\Debug\Sitecore.HabitatHome.Foundation.Serialization.csproj.CopyComplete
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\obj\Debug\Sitecore.HabitatHome.Foundation.Serialization.dll
+\\vmware-host\Shared Folders\Documents\Repo\HelixPOC\src\Foundation\Serialization\code\obj\Debug\Sitecore.HabitatHome.Foundation.Serialization.pdb
